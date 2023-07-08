@@ -14,7 +14,6 @@
    --font2: 'Passion One', cursive;
    --font3:'Sriracha', cursive;
 
-
 }
 
 html, body{
@@ -27,16 +26,19 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 h1{
     padding-top: 50px;
     text-transform: uppercase;
     font-family: var(--font2);
+    font-size: 2em;
+    padding-bottom: 15px;
 }
 
-padding > p {
-    padding-bottom: 50px;
+header> p {
+    padding-bottom: 15px;
 }
 
 a{
@@ -48,6 +50,7 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
 
 section{
     padding-top: 10vh;
@@ -63,13 +66,13 @@ section.normal{
 }
 
 section.imagem{
-    background-color: aqua;
+    background-color: black;
     color: white;
 }
 
 section.imagem p{
     width: 400px;
-    background-color: rgb(100, 98, 98);
+    background-color: rgba(95, 88, 88, 0.397);
 }
 
 footer{
